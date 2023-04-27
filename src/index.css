@@ -19,3 +19,8 @@
     @apply flex;
   }
 }
+
+.active {
+  background: #282828;
+  color: #fff;
+}

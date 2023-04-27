@@ -14,6 +14,7 @@ module.exports = {
       link: "#b3b3b3",
       footer:'#181818',
       white: "#fff",
+      black : "#000",
     },
     extend: {},
   },
