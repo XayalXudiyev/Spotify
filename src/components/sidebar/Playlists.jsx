@@ -9,10 +9,10 @@ const Playlists = () => {
         {new Array(30).fill(
           <li>
             <a
-              href=""
+              href="" 
               className="text-sm text-link hover:text-white flex h-8 items-center"
             >
-                playlist 1
+              playlist 1
             </a>
           </li>
         )}

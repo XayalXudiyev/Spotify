@@ -10,13 +10,13 @@ module.exports = {
     colors: {
       backrop: "#121212",
       primary: "#1db954",
-      active:'#282828',
+      active: "#282828",
       link: "#b3b3b3",
-      footer:'#181818',
+      footer: "#181818",
       white: "#fff",
-      black : "#000",
+      black: "#000",
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/line-clamp")],
 };

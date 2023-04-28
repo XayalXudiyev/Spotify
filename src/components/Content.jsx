@@ -11,14 +11,17 @@ import LikedSongs from "../views/LikedSongs";
 
 const Content = () => {
   return (
-    <main className="flex-auto">
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/search" element={<Search />} />
-        <Route path="/library" element={<Library />} />
-        <Route path="/create-playlist" element={<CreatePlaylist />} />
-        <Route path="/liked-songs" element={<LikedSongs />} />
-      </Routes>
+    <main className="flex-auto overflow-auto">
+      <Navbar />
+      <div className="px-8 py-5">
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/search" element={<Search />} />
+          <Route path="/library" element={<Library />} />
+          <Route path="/create-playlist" element={<CreatePlaylist />} />
+          <Route path="/liked-songs" element={<LikedSongs />} />
+        </Routes>
+      </div>
     </main>
   );
 };
